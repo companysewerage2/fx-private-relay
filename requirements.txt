@@ -1,11 +1,11 @@
-boto3==1.36.21
+boto3==1.37.4
 codetiming==1.4.0
-cryptography==44.0.1
+cryptography==44.0.2
 Django==4.2.19
 dj-database-url==2.3.0
 django-allauth[socialaccount]==65.4.1
 django-cors-headers==4.7.0
-django-csp==4.0b3
+django-csp==4.0b4
 django-debug-toolbar==5.0.1
 django-filter==25.1
 django-ipware==7.0.1
@@ -17,43 +17,43 @@ djangorestframework==3.15.2
 django-waffle==4.2.0
 dockerflow==2024.4.2
 drf-spectacular==0.28.0
-drf-spectacular-sidecar==2025.2.1
-glean_parser==16.2.0
+drf-spectacular-sidecar==2025.3.1
+glean_parser==17.0.1
 google-cloud-profiler==4.1.0; python_version < '3.13'
 gunicorn==23.0.0
 jwcrypto==1.5.6
 markus[datadog]==5.1.0
-psycopg[c]==3.2.4
+psycopg[c]==3.2.5
 PyJWT==2.10.1
 python-decouple==3.8
 requests==2.32.3
-sentry-sdk==2.21.0
+sentry-sdk==2.22.0
 whitenoise==6.9.0
 
 # phones app
 phonenumbers==8.13.55
-twilio==9.4.5
+twilio==9.4.6
 vobject==0.9.9
 
 # tests
 coverage==7.6.12
-model-bakery==1.20.3
+model-bakery==1.20.4
 pytest-cov==6.0.0
 pytest-django==4.10.0
 responses==0.25.6
 
 # linting
 black==25.1.0
-ruff==0.9.6
+ruff==0.9.9
 
 # type hinting
-boto3-stubs==1.36.21
-botocore-stubs==1.36.21
+boto3-stubs==1.37.4
+botocore-stubs==1.37.4
 django-stubs==5.1.3
-djangorestframework-stubs==3.15.2
-mypy-boto3-s3==1.36.21
-mypy-boto3-ses==1.36.0
-mypy-boto3-sns==1.36.3
-mypy-boto3-sqs==1.36.0
+djangorestframework-stubs==3.15.3
+mypy-boto3-s3==1.37.0
+mypy-boto3-ses==1.37.0
+mypy-boto3-sns==1.37.0
+mypy-boto3-sqs==1.37.0
 mypy==1.15.0
-types-requests==2.32.0.20241016
+types-requests==2.32.0.20250301
